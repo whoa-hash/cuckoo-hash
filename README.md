@@ -3,4 +3,4 @@ A cuckoo hash is a data structure that solves the problem of collisions of data 
 Sometimes, the cuckoo hash goes into an infinite loop by inserting and evicting the same two pieces of information (the key, data pair, in this case). Then, there 
 are two solutions: either the hash table can be 'grown' and then everything should be re-inserted, or the hash function that's being used to find a spot in the hash array can be changed to a new hash function and likewise, then everything must be re-inserted.
 
-used Pytest
+I used Pytest for testing.
